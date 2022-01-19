@@ -7,7 +7,7 @@
     {
         if (block?.ContentUdi == null) { continue; }
         var data = block.Content;
-
+		// dw test
         @await Html.PartialAsync("blocklist/Components/" + data.ContentType.Alias, block)
     }
 </div>
